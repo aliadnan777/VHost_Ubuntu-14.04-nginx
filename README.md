@@ -8,7 +8,8 @@
 * `sudo chown -R $USER:$USER /etc/www/daddy.com/public_html`
 * Additionally, it is important to make sure that everyone is able to read our new files
 * `sudo chmod 755 /var/www`
-* now create the index page inside the directoryy
+* now create the index page inside the directory
+* `sudo vi /var/www/daddy.com/public_html/index.html`
 * add some text in index.html file
 * now its time to create new virtual host file , follow below command
 * `sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/daddy.com`
