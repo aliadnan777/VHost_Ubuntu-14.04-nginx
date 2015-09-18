@@ -5,7 +5,7 @@
 * next step is to make directory for virtual host
 * `sudo mkdir -p /var/www/daddy.com/public_html`
 * now grant permission to the right user
-* `sudo chown -R $USER:$USER /etc/www/daddy.com/public_html`
+* `sudo chown -R $USER:$USER /var/www/daddy.com/public_html`
 * Additionally, it is important to make sure that everyone is able to read our new files
 * `sudo chmod 755 /var/www`
 * now create the index page inside the directory
