@@ -1,6 +1,6 @@
 # VHost_Ubuntu-14.04-nginx
 
-* first install nginx on your server
+first install nginx on your server
 * `sudo apt-get install nginx`
 * next step is to make directory for virtual host
 * `sudo mkdir -p /var/www/daddy.com/public_html`
